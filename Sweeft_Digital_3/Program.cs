@@ -5,7 +5,7 @@ namespace Sweeft_Digital_3
 {
     internal class Program
     {
-        public static int MyArrayMinValue(int[] array)
+        public static int NotContains(int[] array)
         {
             int minvalue = 1;
             for (int i = 1; i <= int.MaxValue; i++)
@@ -32,7 +32,7 @@ namespace Sweeft_Digital_3
         static void Main(string[] args)
         {
             int[] MyArray = { 1, 2, 3, 5, 13 };
-            int resultMinValue = MyArrayMinValue(MyArray);
+            int resultMinValue = NotContains(MyArray);
             Console.WriteLine($"MinValue : {resultMinValue}");
         }
     }
